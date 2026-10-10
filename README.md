@@ -43,3 +43,26 @@ The project includes a homepage, projects page, articles page,
 and contact page with a form for name, email, and message.
 It features navigation links across all pages, SEO meta tags,
 and a structured layout ready for future CSS styling.
+
+## Project 3: Pricing Comparison Table
+
+Project URL:
+https://anuhya3.github.io/roadmap.sh/pricing-comparison-table/
+
+Project Page:
+https://roadmap.sh/projects/pricing-comparison-table
+
+### Technologies Used
+- HTML5
+- Semantic HTML
+- HTML Tables
+- Table Headers and Captions
+- Accessibility Attributes
+
+### Description
+A simple pricing comparison page built using semantic HTML.
+The project compares Basic, Pro, and Enterprise subscription
+plans using an accessible HTML table. It includes table headers,
+a caption, row and column scopes, and merged cells using colspan.
+The page follows semantic HTML structure and is ready for
+future CSS styling.
