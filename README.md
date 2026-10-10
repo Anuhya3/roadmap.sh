@@ -66,3 +66,25 @@ plans using an accessible HTML table. It includes table headers,
 a caption, row and column scopes, and merged cells using colspan.
 The page follows semantic HTML structure and is ready for
 future CSS styling.
+
+## Project 4: Blog Post Page
+
+Project URL:
+https://anuhya3.github.io/roadmap.sh/blog-post-page/
+
+Project Page:
+https://roadmap.sh/projects/blog-post-page
+
+### Technologies Used
+- HTML5
+- Semantic HTML
+- HTML Text Elements
+- Accessibility Attributes
+- SEO Meta Tags
+
+### Description
+A simple blog post page built using semantic HTML.
+The project includes a structured article with headings,
+paragraphs, lists, quotations, code examples, and descriptive
+links. It also features an image with alternative text and
+a caption, publication metadata, and accessible page regions.
