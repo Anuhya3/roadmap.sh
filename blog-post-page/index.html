@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Learn why semantic HTML matters and how to structure accessible web pages using meaningful HTML elements."
+    />
+
+    <title>Understanding Semantic HTML | Web Dev Journal</title>
+  </head>
+
+  <body>
+    <header>
+      <p>Web Dev Journal</p>
+
+      <nav aria-label="Main navigation">
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+          HTML Documentation
+        </a>
+        |
+        <a href="https://roadmap.sh/frontend"> Frontend Roadmap </a>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <header>
+          <h1>Understanding Semantic HTML</h1>
+
+          <p>
+            Published on
+            <time datetime="2026-10-10">October 10, 2026</time>
+            by Alex Morgan
+          </p>
+        </header>
+
+        <section>
+          <h2>What Is Semantic HTML?</h2>
+
+          <p>
+            Semantic HTML means using HTML elements that describe the meaning of
+            the content they contain. Instead of using generic elements
+            everywhere, we use tags such as
+            <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code>, and
+            <code>&lt;nav&gt;</code>.
+          </p>
+
+          <p>
+            Using semantic elements is
+            <strong>important for accessibility</strong>
+            because assistive technologies can understand the structure of the
+            page.
+          </p>
+        </section>
+
+        <figure>
+          <img
+            src="mountain.png"
+            alt="Mountains on sunrise."
+            width="600"
+            height="300"
+          />
+
+          <figcaption>
+            Semantic HTML helps organise web content meaningfully.
+          </figcaption>
+        </figure>
+
+        <section>
+          <h2>Why Should We Use Semantic HTML?</h2>
+
+          <p>
+            Semantic HTML improves accessibility, maintainability, and helps
+            search engines understand the content of a page.
+          </p>
+
+          <h3>Key Benefits</h3>
+
+          <ul>
+            <li>Improves accessibility for screen reader users.</li>
+            <li>Provides a meaningful document structure.</li>
+            <li>Helps search engines interpret content.</li>
+            <li>Makes code easier to maintain.</li>
+          </ul>
+
+          <p>
+            It is <em>especially useful</em> when building websites containing
+            articles, documentation, and other structured content.
+          </p>
+        </section>
+
+        <section>
+          <h2>How to Structure an HTML Page</h2>
+
+          <p>
+            A typical semantic HTML page includes a header, main content, and
+            footer.
+          </p>
+
+          <h3>Basic HTML Example</h3>
+
+          <pre><code>&lt;header&gt;
+    &lt;nav&gt;Navigation&lt;/nav&gt;
+&lt;/header&gt;
+
+&lt;main&gt;
+    &lt;article&gt;
+        &lt;h1&gt;Article Title&lt;/h1&gt;
+        &lt;p&gt;Article content&lt;/p&gt;
+    &lt;/article&gt;
+&lt;/main&gt;
+
+&lt;footer&gt;
+    Copyright 2026
+&lt;/footer&gt;</code></pre>
+
+          <h3>Steps to Follow</h3>
+
+          <ol>
+            <li>Identify the main sections of your page.</li>
+            <li>Choose meaningful HTML elements.</li>
+            <li>Use headings in the correct order.</li>
+            <li>Add descriptive links and image alternatives.</li>
+            <li>Validate your HTML structure.</li>
+          </ol>
+        </section>
+
+        <section>
+          <h2>Advice for Beginners</h2>
+
+          <blockquote>
+            <p>
+              The best way to learn HTML is to build small projects and
+              understand why each element is used.
+            </p>
+
+            <footer>— <cite>Web Dev Journal</cite></footer>
+          </blockquote>
+
+          <p>
+            Start with simple projects before moving on to CSS and JavaScript.
+          </p>
+        </section>
+
+        <section>
+          <h2>Additional Resources</h2>
+
+          <p>
+            You can explore the
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content"
+            >
+              MDN guide to structuring content with HTML
+            </a>
+            to learn more about semantic elements.
+          </p>
+
+          <p>
+            For practical exercises, follow the
+            <a href="https://roadmap.sh/projects">
+              roadmap.sh project collection </a
+            >.
+          </p>
+        </section>
+      </article>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Web Dev Journal. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
