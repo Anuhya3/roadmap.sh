@@ -111,3 +111,27 @@ a subject dropdown, a message textarea with minimum
 length validation, grouped radio buttons, and an optional
 newsletter checkbox. It uses native browser validation
 without CSS or JavaScript.
+
+## Project 6: Photo Showcase
+
+Project URL:
+https://anuhya3.github.io/roadmap.sh/photo-showcase/
+
+Project Page:
+https://roadmap.sh/projects/photo-showcase
+
+### Technologies Used
+- HTML5
+- Semantic HTML
+- HTML Images
+- Figure and Figcaption
+- HTML Video
+- Accessibility
+
+### Description
+A photo showcase page built using semantic HTML.
+The project includes six images with alternative text,
+image dimensions, and descriptive captions using figure
+and figcaption elements. It also features a decorative
+image and an embedded video with playback controls,
+a poster image, and fallback content.
