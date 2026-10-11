@@ -88,3 +88,26 @@ The project includes a structured article with headings,
 paragraphs, lists, quotations, code examples, and descriptive
 links. It also features an image with alternative text and
 a caption, publication metadata, and accessible page regions.
+
+## Project 5: Contact Form
+
+Project URL:
+https://anuhya3.github.io/roadmap.sh/contact-form/
+
+Project Page:
+https://roadmap.sh/projects/contact-form
+
+### Technologies Used
+- HTML5
+- Semantic HTML
+- HTML Forms
+- Accessibility
+- Browser Form Validation
+
+### Description
+An accessible contact form built using semantic HTML.
+The project includes required name and email fields,
+a subject dropdown, a message textarea with minimum
+length validation, grouped radio buttons, and an optional
+newsletter checkbox. It uses native browser validation
+without CSS or JavaScript.
