@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <meta name="description" content="Contact form for users to reach out." />
+  </head>
+  <body>
+    <header>
+      <p>Acme Support</p>
+    </header>
+    <main>
+      <h1>Contact Us</h1>
+      <p>
+        If you have any questions or need assistance, please fill out the form
+        below and we will get back to you as soon as possible.
+      </p>
+      <form action="https://example.com/contact" method="post">
+        <label for="name">Full Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="subject">Subject:</label><br />
+        <select id="subject" name="subject" required>
+          <option value="" disabled selected>Select a subject</option>
+          <option value="general">General Inquiry</option>
+          <option value="support">Support Request</option>
+          <option value="feedback">Feedback</option>
+        </select>
+        <br /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea
+          id="message"
+          name="message"
+          rows="5"
+          minlength="10"
+          required
+        ></textarea>
+        <br /><br />
+
+        <fieldset>
+          <legend>How did you hear about us?</legend>
+
+          <input type="radio" id="search" name="referral" value="search" />
+          <label for="search">Search</label><br />
+
+          <input type="radio" id="social" name="referral" value="social" />
+          <label for="social">Social Media</label><br />
+
+          <input type="radio" id="friend" name="referral" value="friend" />
+          <label for="friend">Friend</label>
+        </fieldset>
+        <input
+          type="checkbox"
+          id="newsletter"
+          name="newsletter"
+          value="subscribe"
+        />
+        <label for="newsletter">Subscribe to our newsletter</label><br /><br />
+
+        <button type="submit">Send Message</button>
+      </form>
+    </main>
+    <footer>
+      <p>&copy; 2026 Acme Support. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
